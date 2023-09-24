@@ -1,0 +1,18 @@
+body {
+    background-image: url("alarm_img.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#butt {
+    background-color: rgb(0, 255, 132);
+}
+
+#btn {
+    background-color: rgb(255, 196, 0);
+}
+
+input[type="time"] {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+}

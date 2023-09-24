@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Alarm Project</title>
+    <link rel="stylesheet" href="Alarm.css" />
+</head>
+
+<body>
+    <center>
+        <audio id="ringtone" src="tone.mp3"></audio>
+        <div id="frunt">
+            <h1><u>ALARM CLOCK</u></h1>
+        </div>
+        <div id="clock"></div>
+        <br><br><br><br><label id="lab" for="text">SET TIME:</label>
+        <input type="time" id="alarm_time" />
+        <br /><br>
+        <button id="butt" onclick="activateAlarm()">Set & Active Alarm</button>
+        <button id="btn" onclick="stopAlarm()">Stop Alarm</button><br><br>
+        <div id="status_msg"></div>
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
